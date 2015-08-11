@@ -1,0 +1,260 @@
+body {
+    font-size: 12px;
+    font-family: Arial;
+    color: #222;
+}
+
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+}
+
+/* Checkboxes for timetable */
+.airboard input[type=checkbox],
+.airboard input[type=checkbox] + label {
+    cursor: pointer;
+}
+.airboard input[value="1"][type=checkbox]:checked ~ .airboard-table tr[data-flight-type="1"] {
+    display: table-row;
+}
+.airboard input[value="2"][type=checkbox]:checked ~ .airboard-table tr[data-flight-type="2"] {
+    display: table-row;
+}
+
+/* timetable */
+.airboard-table {
+    margin-top: 10px;
+    width: 100%;
+    overflow: hidden;
+    border-collapse: collapse;
+    text-align: center;
+}
+.airboard-table thead th,
+.airboard-table thead th .fixed {
+    color: #fff;
+    background: #309fd6;
+    border-bottom: 1px solid #333;
+}
+.airboard-table thead th .fixed {
+    display: none;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    margin-left: -10px;
+    z-index: 100;
+}
+.airboard-table tbody tr {
+    cursor: pointer;
+    display: none;
+}
+.airboard-table tr:focus {
+    outline: 1px solid #999;
+}
+.airboard-table th,td {
+    outline: 0;
+    padding: 10px;
+    position: relative;
+}
+
+/* Full flight info modal */
+.airboard-table tr:focus .flight-info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+}
+.airboard-table td .flight-info {
+    padding: 20px;
+    display: none;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    text-align: left;
+    z-index: 100000;
+}
+.airboard-table td .flight-info-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 200px;
+    margin: -100px 0 0 -200px;
+    padding: 10px 20px;
+    color: #222;
+    background: #fff;
+    border-radius: 10px;
+    z-index: 100001;
+}
+.airboard-table td .flight-info-inner .flight-info-close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 16px;
+}
+.airboard-table td .flight-info-header {
+    font-size: 14px;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+.airboard-table td ul.flight-info-list {
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+.airboard-table td ul.flight-info-list > li {
+    margin-bottom: 10px;
+}
+.airboard-table td ul.flight-info-list > li:last-child {
+    margin-bottom: 0;
+}
+
+/* table cols */
+.airboard-table td.flight-type {
+    width: 24px;
+}
+.airboard-table td.flight-number {
+    width: 70px;
+}
+.airboard-table td.flight-name {
+    width: 160px;
+    text-align: left;
+}
+.airboard-table td.flight-name .flight-airline-icon {
+    float: right;
+}
+.airboard-table td.flight-name .flight-name-text {
+    float: left;
+}
+.airboard-table td.flight-date {
+    width: 120px;
+}
+.airboard-table td.flight-date .flight-date-str {
+    font-size: 10px;
+}
+
+/* Icons */
+.airboard-table .icon-plane {
+    width: 20px;
+    height: 16px;
+    display: inline-block;
+}
+.airboard-table .icon-plane-1 {
+    background: url('../images/planes.png') 0 0 no-repeat;
+}
+.airboard-table .icon-plane-2 {
+    background: url('../images/planes.png') -20px 0 no-repeat;
+}
+/* airlines icons */
+.airboard-table .flight-airline-icon {
+    width: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    background-image: url('../images/airlines.png');
+    background-repeat: no-repeat;
+}
+.airboard-table .flight-airline-icon[data-airline-code="UN"] {
+    height: 11px;
+    background-position: -50px 0;
+}
+.airboard-table .flight-airline-icon[data-airline-code="UT"] {
+    height: 20px;
+    background-position: 0 -28px;
+}
+.airboard-table .flight-airline-icon[data-airline-code="DP*"] {
+    height: 11px;
+    background-position: 0 0;
+}
+.airboard-table .flight-airline-icon[data-airline-code="R2"] {
+    height: 9px;
+    background-position: -50px -48px;
+}
+.airboard-table .flight-airline-icon[data-airline-code="V8"] {
+    height: 10px;
+    background-position: 0 -61px;
+}
+.airboard-table .flight-airline-icon[data-airline-code="A9"] {
+    height: 14px;
+    background-position: -50px -61px;
+}
+
+.airboard-table .flight-machine-short,
+.airboard-table .flight-airport-short {
+    display: none;
+}
+
+/* show short info when page less than 1000px */
+@media screen and (max-width: 700px) {
+    .airboard-table .flight-date {
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    .airboard-table .flight-note {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .airboard-table .flight-airport-short {
+        display: block;
+    }
+    .airboard-table .flight-airport-full {
+        display: none;
+    }
+}
+@media screen and (max-width: 920px) {
+    .airboard-table .flight-machine-short {
+        display: block;
+    }  
+    .airboard-table .flight-machine-full {
+        display: none;
+    }    
+}
+@media screen and (max-width: 1000px) {
+    .airboard-table td.flight-name {
+        width: auto;
+    }
+    .airboard-table td.flight-name .flight-name-text {
+        display: none;
+    }
+    .airboard-table td.flight-name .flight-airline-icon {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+/* column and row highlighting */
+.airboard-table tr.odd td:before {
+  background: #ebf2fa;
+}
+.airboard-table tr.even td:before {
+  background: #fff;
+}
+.airboard-table tbody > tr:hover > td,
+.airboard-table tbody > tr.odd:hover > td,
+.airboard-table tbody > tr.even:hover > td {
+    background-color: #c1d3e7;
+}
+.airboard-table tbody tr td:hover::after,
+.airboard-table tbody tr th:hover::after {
+    background-color: #c1d3e7;
+}
+.airboard-table td:hover::after, .airboard-table th:hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 999em;
+    left: 0;
+    top: -555em;
+    z-index: -1;
+}
+.airboard-table td:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -3;
+}

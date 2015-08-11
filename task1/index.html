@@ -1,0 +1,189 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Онлайн табло аэропорта N</title>
+	<meta charset="utf-8">
+
+	<link href="css/styles.css" rel="stylesheet"/>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/handlebars.js"></script>
+    <script src="data/prepared/flights.js"></script>
+</head>
+<body>
+    <div class="container">
+    	<div class="airboard">
+            <input id="flight-type-check-1" type="checkbox" value="1" checked="checked"/><label for="flight-type-check-1">Вылет</label>
+            <input id="flight-type-check-2" type="checkbox" value="2" checked="checked"/><label for="flight-type-check-2">Прилет</label>
+        </div>
+    </div>
+
+    <script id="airboard-table-tmpl" type="text/x-handlebars-template">
+        <table class="airboard-table">
+            <thead>
+                <tr>
+                    <th class="flight-type">
+                        <div class="relative">Тип рейса</div>
+                        <div class="fixed">Тип рейса</div>
+                    </th>
+                    <th class="flight-number">
+                        <div class="relative">Номер рейса</div>
+                        <div class="fixed">Номер рейса</div>
+                    </th>
+                    <th class="flight-name">
+                        <div class="relative">Авиакомпания</div>
+                        <div class="fixed">Авиакомпания</div>
+                    </th>
+                    <th class="flight-machine">
+                        <div class="relative">Воздушное судно</div>
+                        <div class="fixed">Воздушное судно</div>
+                    </th>
+                    <th class="flight-airport">
+                        <div class="relative">Аэропорт назначения</div>
+                        <div class="fixed">Аэропорт назначения</div>
+                    </th>
+                    <th class="flight-date">
+                        <div class="relative">Плановое время вылета/прилета</div>
+                        <div class="fixed">Плановое время вылета/прилета</div>
+                    </th>
+                    <th class="flight-status">
+                        <div class="relative">Статус рейса</div>
+                        <div class="fixed">Статус рейса</div>
+                    </th>
+                    <th class="flight-note">
+                        <div class="relative">Примечание</div>
+                        <div class="fixed">Примечание</div>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each this}}
+                    <tr class="{{defineFlightRowClass @index}}" data-flight-type="{{flightType}}" tabindex="0">
+                        <td class="flight-type">
+                            <div class="icon-plane icon-plane-{{flightType}}" title="{{flightTypeNameHelper}}"></div>
+                            <div class="flight-info" tabindex="-1">
+                                <div class="flight-info-inner">
+                                    <div class="flight-info-close">x</div>
+                                    <div class="flight-info-header">
+                                        <div class="icon-plane icon-plane-{{flightType}}" title="{{flightTypeNameHelper}}"></div>
+                                        <b>Рейс № {{carrierFsCode}} {{flightNumber}} ({{flightTypeNameHelper}})</b>
+                                    </div>
+                                    <div class="flight-info-content">
+                                        <ul class="flight-info-list">
+                                            <li>
+                                                <b>Авиакомпания:</b>
+                                                <span>{{airlineName}}</span>
+                                                <div class="flight-airline-icon" data-airline-code="{{carrierFsCode}}" title="{{airlineName}}"></div>
+                                            </li>
+                                            <li>
+                                                <b>Воздушное судно:</b>
+                                                <span>{{flightMachineName}} ({{flightMachineShortName}})</span>
+                                            </li>
+                                            <li>
+                                                <b>Аэропорт назначения:</b>
+                                                <span>{{airportName}} ({{airportCode}})</span>
+                                            </li>
+                                            <li>
+                                                <b>Плановое время вылета/прилета:</b>
+                                                <span>{{flightTimeStr}} {{flightDateStr}}</span>
+                                            </li>
+                                            <li>
+                                                <b>Статус рейса:</b>
+                                                <span>{{flightStatus}}</span>
+                                            </li>
+                                            <li>
+                                                <b>Примечание (информация о кодшеринге с другими авиакомпаниями):</b>
+                                                {{#if codeshares}}
+                                                    {{#each codeshares}}
+                                                        <span>{{fsCode}} - {{flightNumber}}</span>
+                                                    {{/each}}
+                                                {{else}}
+                                                    -
+                                                {{/if}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="flight-number">{{carrierFsCode}} {{flightNumber}}</td>
+                        <td class="flight-name">
+                            <span class="flight-name-text">{{airlineName}}</span>
+                            <div class="flight-airline-icon" data-airline-code="{{carrierFsCode}}" title="{{airlineName}}"></div>
+                        </td>
+                        <td class="flight-machine">
+                            <span class="flight-machine-short" title="{{flightMachineName}}">{{flightMachineShortName}}</span>
+                            <span class="flight-machine-full">{{flightMachineName}}</span>
+                        </td>
+                        <td class="flight-airport">
+                            <span class="flight-airport-short" title="{{airportName}}">{{airportCode}}</span>
+                            <span class="flight-airport-full">{{airportName}}</span>
+                        </td>
+                        <td class="flight-date">
+                            {{flightTimeStr}}
+                            <br/>
+                            <span class="flight-date-str">{{flightDateStr}}</span>
+                        </td>
+                        <td class="flight-status">
+                            {{flightStatus}}
+                        </td>
+                        <td class="flight-note">
+                            {{#each codeshares}}
+                                <span>{{fsCode}} - {{flightNumber}}</span><br/>
+                            {{/each}}
+                        </td>
+                    </tr>
+                {{/each}}            
+            </tbody>
+        </table>
+    </script>
+
+    <script type="text/javascript">
+
+        Handlebars.registerHelper('flightTypeNameHelper', function() {
+            if(this.flightType == 1) 
+                return 'Вылет';
+            return 'Прилет';
+        });
+
+        Handlebars.registerHelper('defineFlightRowClass', function(index) {
+            if(index % 2 != 1)
+                return 'odd';
+            return 'even';
+        });
+
+        var airboardTableRowTmpl = Handlebars.compile($('#airboard-table-tmpl').html());
+        $('.airboard').append(airboardTableRowTmpl(flights));
+
+        /* For fixed header */
+        function setSizeFixedHeader() {
+            $('.airboard-table th').each(function() {
+                var $this = $(this);
+                $this.find('.fixed').width($this.width()).height($this.height());
+            });
+        }
+
+        function showHideFixedHeader() {
+            var $header = $('.airboard-table thead'),
+                $fixedHead = $('.airboard-table .fixed'),
+                headerOffset = $header.offset().top;
+            if($(window).scrollTop() > headerOffset)
+                $fixedHead.show();
+            else
+                $fixedHead.hide();
+        }
+
+        $(window).on('resize', function() {
+            setSizeFixedHeader();  
+        });
+
+        $(window).on('scroll', function() {
+            setSizeFixedHeader();
+            showHideFixedHeader();
+        });
+
+        setSizeFixedHeader();
+
+    </script>
+</body>
+</html>

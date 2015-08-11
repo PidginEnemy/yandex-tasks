@@ -1,0 +1,1837 @@
+{
+ "request": {
+  "airport": {
+   "requestedCode": "VKO",
+   "fsCode": "VKO"
+  },
+  "date": {
+   "year": "2015",
+   "month": "8",
+   "day": "11",
+   "interpreted": "2015-08-11"
+  },
+  "hourOfDay": {
+   "requested": "22",
+   "interpreted": 22
+  },
+  "numHours": {
+   "requested": "2",
+   "interpreted": 2
+  },
+  "utc": {
+   "requested": "false",
+   "interpreted": false
+  },
+  "codeType": {},
+  "maxFlights": {},
+  "extendedOptions": {},
+  "url": "https://api.flightstats.com/flex/flightstatus/rest/v2/json/airport/status/VKO/dep/2015/08/11/22"
+ },
+ "appendix": {
+  "airlines": [
+   {
+    "fs": "R2",
+    "iata": "R2",
+    "icao": "ORB",
+    "name": "ORENAIR",
+    "active": true
+   },
+   {
+    "fs": "V8",
+    "iata": "V8",
+    "icao": "VAS",
+    "name": "Atran",
+    "active": true
+   },
+   {
+    "fs": "4G",
+    "iata": "4G",
+    "icao": "GZP",
+    "name": "Gazpromavia",
+    "active": true
+   },
+   {
+    "fs": "TK",
+    "iata": "TK",
+    "icao": "THY",
+    "name": "Turkish Airlines",
+    "active": true
+   },
+   {
+    "fs": "A9",
+    "iata": "A9",
+    "icao": "TGZ",
+    "name": "Georgian Airways",
+    "active": true
+   },
+   {
+    "fs": "UN",
+    "iata": "UN",
+    "icao": "TSO",
+    "name": "Transaero Airlines",
+    "active": true
+   },
+   {
+    "fs": "DP*",
+    "iata": "DP",
+    "name": "Pobeda",
+    "active": true
+   },
+   {
+    "fs": "UT",
+    "iata": "UT",
+    "icao": "UTA",
+    "name": "UTair",
+    "active": true
+   }
+  ],
+  "airports": [
+   {
+    "fs": "VOZ",
+    "iata": "VOZ",
+    "icao": "UUOO",
+    "name": "Voronezh Airport",
+    "city": "Voronezh",
+    "cityCode": "VOZ",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Moscow",
+    "localTime": "2015-08-11T22:27:27.565",
+    "utcOffsetHours": 3,
+    "latitude": 51.812356,
+    "longitude": 39.226997,
+    "elevationFeet": 514,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VOZ?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VOZ?codeType=fs"
+   },
+   {
+    "fs": "DYU",
+    "iata": "DYU",
+    "icao": "UTDD",
+    "name": "Dushanbe Airport",
+    "city": "Dushanbe",
+    "cityCode": "DYU",
+    "countryCode": "TJ",
+    "countryName": "Tajikistan",
+    "regionName": "Asia",
+    "timeZoneRegionName": "Asia/Dushanbe",
+    "localTime": "2015-08-12T00:27:27.562",
+    "utcOffsetHours": 5,
+    "latitude": 38.54894,
+    "longitude": 68.817287,
+    "elevationFeet": 2572,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DYU?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DYU?codeType=fs"
+   },
+   {
+    "fs": "GOJ",
+    "iata": "GOJ",
+    "icao": "UWGG",
+    "name": "Nizhny Novgorod International Airport",
+    "city": "Nizhniy Novgorod",
+    "cityCode": "GOJ",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Moscow",
+    "localTime": "2015-08-11T22:27:27.562",
+    "utcOffsetHours": 3,
+    "latitude": 56.218611,
+    "longitude": 43.789766,
+    "elevationFeet": 256,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/GOJ?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/GOJ?codeType=fs"
+   },
+   {
+    "fs": "TBS",
+    "iata": "TBS",
+    "icao": "UGGG",
+    "name": "Tbilisi International Airport",
+    "city": "Tbilisi",
+    "cityCode": "TBS",
+    "countryCode": "GE",
+    "countryName": "Georgia",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Tbilisi",
+    "localTime": "2015-08-11T23:27:27.565",
+    "utcOffsetHours": 4,
+    "latitude": 41.674063,
+    "longitude": 44.958958,
+    "elevationFeet": 1624,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TBS?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TBS?codeType=fs"
+   },
+   {
+    "fs": "UUD",
+    "iata": "UUD",
+    "icao": "UIUU",
+    "name": "Ulan-Ude Airport",
+    "city": "Ulan-Ude",
+    "cityCode": "UUD",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Irkutsk",
+    "localTime": "2015-08-12T03:27:27.565",
+    "utcOffsetHours": 8,
+    "latitude": 51.833333,
+    "longitude": 107.5,
+    "elevationFeet": 1690,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/UUD?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/UUD?codeType=fs"
+   },
+   {
+    "fs": "NJC",
+    "iata": "NJC",
+    "icao": "USNN",
+    "name": "Nizhnevartovsk Airport",
+    "city": "Nizhnevartovsk",
+    "cityCode": "NJC",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Yekaterinburg",
+    "localTime": "2015-08-12T00:27:27.564",
+    "utcOffsetHours": 5,
+    "latitude": 60.947603,
+    "longitude": 76.491447,
+    "elevationFeet": 157,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NJC?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NJC?codeType=fs"
+   },
+   {
+    "fs": "NSK",
+    "iata": "NSK",
+    "icao": "UOOO",
+    "name": "Noril'sk Airport",
+    "city": "Noril'sk",
+    "cityCode": "NSK",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Krasnoyarsk",
+    "localTime": "2015-08-12T02:27:27.564",
+    "utcOffsetHours": 7,
+    "latitude": 69.323123,
+    "longitude": 87.339807,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/NSK?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/NSK?codeType=fs"
+   },
+   {
+    "fs": "TSE",
+    "iata": "TSE",
+    "icao": "UACC",
+    "name": "Astana International Airport",
+    "city": "Astana",
+    "cityCode": "TSE",
+    "countryCode": "KZ",
+    "countryName": "Kazakhstan",
+    "regionName": "Asia",
+    "timeZoneRegionName": "Asia/Qyzylorda",
+    "localTime": "2015-08-12T01:27:27.565",
+    "utcOffsetHours": 6,
+    "latitude": 51.027811,
+    "longitude": 71.461199,
+    "elevationFeet": 1165,
+    "classification": 3,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/TSE?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/TSE?codeType=fs"
+   },
+   {
+    "fs": "KGD",
+    "iata": "KGD",
+    "icao": "UMKK",
+    "name": "Khrabrovo Airport",
+    "city": "Kaliningrad",
+    "cityCode": "KGD",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Kaliningrad",
+    "localTime": "2015-08-11T21:27:27.563",
+    "utcOffsetHours": 2,
+    "latitude": 54.882656,
+    "longitude": 20.586646,
+    "elevationFeet": 43,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KGD?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KGD?codeType=fs"
+   },
+   {
+    "fs": "LED",
+    "iata": "LED",
+    "icao": "ULLI",
+    "name": "Pulkovo Airport",
+    "city": "Saint Petersburg",
+    "cityCode": "LED",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Moscow",
+    "localTime": "2015-08-11T22:27:27.563",
+    "utcOffsetHours": 3,
+    "latitude": 59.799847,
+    "longitude": 30.270505,
+    "elevationFeet": 76,
+    "classification": 2,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LED?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LED?codeType=fs"
+   },
+   {
+    "fs": "CGN",
+    "iata": "CGN",
+    "icao": "EDDK",
+    "name": "Cologne Bonn Airport",
+    "city": "Cologne",
+    "cityCode": "CGN",
+    "countryCode": "DE",
+    "countryName": "Germany",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Berlin",
+    "localTime": "2015-08-11T21:27:27.562",
+    "utcOffsetHours": 2,
+    "latitude": 50.878363,
+    "longitude": 7.122224,
+    "elevationFeet": 250,
+    "classification": 2,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/CGN?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/CGN?codeType=fs"
+   },
+   {
+    "fs": "AER",
+    "iata": "AER",
+    "icao": "URSS",
+    "name": "Sochi International Airport",
+    "city": "Adler/Sochi",
+    "cityCode": "AER",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Moscow",
+    "localTime": "2015-08-11T22:27:27.561",
+    "utcOffsetHours": 3,
+    "latitude": 43.44884,
+    "longitude": 39.941106,
+    "elevationFeet": 89,
+    "classification": 3,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/AER?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/AER?codeType=fs"
+   },
+   {
+    "fs": "SGC",
+    "iata": "SGC",
+    "icao": "USRR",
+    "name": "Surgut Airport",
+    "city": "Surgut",
+    "cityCode": "SGC",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Yekaterinburg",
+    "localTime": "2015-08-12T00:27:27.564",
+    "utcOffsetHours": 5,
+    "latitude": 61.339916,
+    "longitude": 73.409534,
+    "elevationFeet": 200,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SGC?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SGC?codeType=fs"
+   },
+   {
+    "fs": "MRV",
+    "iata": "MRV",
+    "icao": "URMM",
+    "name": "Mineralnye Vody Airport",
+    "city": "Mineralnye Vody",
+    "cityCode": "MRV",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Moscow",
+    "localTime": "2015-08-11T22:27:27.563",
+    "utcOffsetHours": 3,
+    "latitude": 44.218354,
+    "longitude": 43.088178,
+    "elevationFeet": 1080,
+    "classification": 3,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/MRV?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/MRV?codeType=fs"
+   },
+   {
+    "fs": "IKT",
+    "iata": "IKT",
+    "icao": "UIII",
+    "name": "Irkutsk International Airport",
+    "city": "Irkutsk",
+    "cityCode": "IKT",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Irkutsk",
+    "localTime": "2015-08-12T03:27:27.563",
+    "utcOffsetHours": 8,
+    "latitude": 52.273309,
+    "longitude": 104.356071,
+    "elevationFeet": 1573,
+    "classification": 3,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/IKT?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/IKT?codeType=fs"
+   },
+   {
+    "fs": "SVX",
+    "iata": "SVX",
+    "icao": "USSS",
+    "name": "Koltsovo International Airport",
+    "city": "Yekaterinburg",
+    "cityCode": "SVX",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Yekaterinburg",
+    "localTime": "2015-08-12T00:27:27.565",
+    "utcOffsetHours": 5,
+    "latitude": 56.750335,
+    "longitude": 60.804312,
+    "elevationFeet": 764,
+    "classification": 2,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SVX?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SVX?codeType=fs"
+   },
+   {
+    "fs": "RGK",
+    "iata": "RGK",
+    "icao": "UNBG",
+    "name": "Gorno-Altaysk Airport",
+    "city": "Gorno-Altaysk",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Omsk",
+    "localTime": "2015-08-12T01:27:27.564",
+    "utcOffsetHours": 6,
+    "latitude": 51.969166,
+    "longitude": 85.83639,
+    "elevationFeet": 959,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/RGK?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/RGK?codeType=fs"
+   },
+   {
+    "fs": "ROV",
+    "iata": "ROV",
+    "icao": "URRR",
+    "name": "Rostov Airport",
+    "city": "Rostov",
+    "cityCode": "ROV",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Moscow",
+    "localTime": "2015-08-11T22:27:27.564",
+    "utcOffsetHours": 3,
+    "latitude": 47.253513,
+    "longitude": 39.804021,
+    "elevationFeet": 279,
+    "classification": 3,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ROV?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ROV?codeType=fs"
+   },
+   {
+    "fs": "OVB",
+    "iata": "OVB",
+    "icao": "UNNT",
+    "name": "Novosibirsk Tolmachevo Airport",
+    "city": "Novosibirsk",
+    "cityCode": "OVB",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Asia/Novosibirsk",
+    "localTime": "2015-08-12T01:27:27.564",
+    "utcOffsetHours": 6,
+    "latitude": 55.009011,
+    "longitude": 82.666999,
+    "elevationFeet": 365,
+    "classification": 3,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/OVB?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/OVB?codeType=fs"
+   },
+   {
+    "fs": "VKO",
+    "iata": "VKO",
+    "icao": "UUWW",
+    "name": "Vnukovo Airport",
+    "city": "Moscow",
+    "cityCode": "MOW",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Moscow",
+    "localTime": "2015-08-11T22:27:27.556",
+    "utcOffsetHours": 3,
+    "latitude": 55.60315,
+    "longitude": 37.292098,
+    "elevationFeet": 686,
+    "classification": 2,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/VKO?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/VKO?codeType=fs"
+   },
+   {
+    "fs": "SIP",
+    "iata": "SIP",
+    "icao": "UKFF",
+    "name": "Simferopol International Airport",
+    "city": "Simferopol",
+    "cityCode": "SIP",
+    "countryCode": "UA",
+    "countryName": "Ukraine",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Kiev",
+    "localTime": "2015-08-11T22:27:27.564",
+    "utcOffsetHours": 3,
+    "latitude": 45.020658,
+    "longitude": 33.998193,
+    "elevationFeet": 637,
+    "classification": 4,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SIP?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SIP?codeType=fs"
+   },
+   {
+    "fs": "KUF",
+    "iata": "KUF",
+    "icao": "UWWW",
+    "name": "Kurumoch International Airport",
+    "city": "Samara",
+    "cityCode": "KUF",
+    "countryCode": "RU",
+    "countryName": "Russian Federation",
+    "regionName": "Europe",
+    "timeZoneRegionName": "Europe/Samara",
+    "localTime": "2015-08-11T23:27:27.563",
+    "utcOffsetHours": 4,
+    "latitude": 53.507819,
+    "longitude": 50.14742,
+    "elevationFeet": 476,
+    "classification": 3,
+    "active": true,
+    "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/KUF?codeType=fs",
+    "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/KUF?codeType=fs"
+   }
+  ],
+  "equipments": [
+   {
+    "iata": "AT7",
+    "name": "ATR 72",
+    "turboProp": true,
+    "jet": false,
+    "widebody": false,
+    "regional": true
+   },
+   {
+    "iata": "73G",
+    "name": "Boeing 737-700 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "73H",
+    "name": "Boeing 737-800 (winglets) Passenger/BBJ2",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "762",
+    "name": "Boeing 767-200 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": true,
+    "regional": false
+   },
+   {
+    "iata": "73P",
+    "name": "Boeing 737-400 Freighter",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "767",
+    "name": "Boeing 767 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": true,
+    "regional": false
+   },
+   {
+    "iata": "734",
+    "name": "Boeing 737-400 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "735",
+    "name": "Boeing 737-500 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "737",
+    "name": "Boeing 737 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   },
+   {
+    "iata": "738",
+    "name": "Boeing 737-800 Passenger",
+    "turboProp": false,
+    "jet": true,
+    "widebody": false,
+    "regional": false
+   }
+  ]
+ },
+ "flightStatuses": [
+  {
+   "flightId": 583448404,
+   "carrierFsCode": "DP*",
+   "flightNumber": "135",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "AER",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:00:00.000",
+    "dateUtc": "2015-08-11T19:00:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T00:20:00.000",
+    "dateUtc": "2015-08-11T21:20:00.000Z"
+   },
+   "status": "A",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "RFJY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:00:00.000",
+     "dateUtc": "2015-08-11T19:00:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T00:20:00.000",
+     "dateUtc": "2015-08-11T21:20:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:00:00.000",
+     "dateUtc": "2015-08-11T19:00:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T22:09:00.000",
+     "dateUtc": "2015-08-11T19:09:00.000Z"
+    },
+    "actualGateDeparture": {
+     "dateLocal": "2015-08-11T22:09:00.000",
+     "dateUtc": "2015-08-11T19:09:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T00:20:00.000",
+     "dateUtc": "2015-08-11T21:20:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T00:29:00.000",
+     "dateUtc": "2015-08-11T21:29:00.000Z"
+    }
+   },
+   "delays": {
+    "departureGateDelayMinutes": 9,
+    "arrivalGateDelayMinutes": 9
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 140
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738"
+   }
+  },
+  {
+   "flightId": 583448430,
+   "carrierFsCode": "V8",
+   "flightNumber": "693",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "CGN",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:10:00.000",
+    "dateUtc": "2015-08-11T19:10:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T00:30:00.000",
+    "dateUtc": "2015-08-11T22:30:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "F",
+    "serviceClasses": "Y",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:10:00.000",
+     "dateUtc": "2015-08-11T19:10:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T00:30:00.000",
+     "dateUtc": "2015-08-11T22:30:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:10:00.000",
+     "dateUtc": "2015-08-11T19:10:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T00:30:00.000",
+     "dateUtc": "2015-08-11T22:30:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 200
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "73P"
+   }
+  },
+  {
+   "flightId": 583448437,
+   "carrierFsCode": "UT",
+   "flightNumber": "803",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "DYU",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:10:00.000",
+    "dateUtc": "2015-08-11T19:10:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T04:10:00.000",
+    "dateUtc": "2015-08-11T23:10:00.000Z"
+   },
+   "status": "A",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "Y",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:10:00.000",
+     "dateUtc": "2015-08-11T19:10:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T04:10:00.000",
+     "dateUtc": "2015-08-11T23:10:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:10:00.000",
+     "dateUtc": "2015-08-11T19:10:00.000Z"
+    },
+    "estimatedRunwayDeparture": {
+     "dateLocal": "2015-08-11T22:19:00.000",
+     "dateUtc": "2015-08-11T19:19:00.000Z"
+    },
+    "actualRunwayDeparture": {
+     "dateLocal": "2015-08-11T22:19:00.000",
+     "dateUtc": "2015-08-11T19:19:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T04:10:00.000",
+     "dateUtc": "2015-08-11T23:10:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 240
+   },
+   "airportResources": {
+    "departureTerminal": "B"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "762"
+   }
+  },
+  {
+   "flightId": 583448452,
+   "carrierFsCode": "UT",
+   "flightNumber": "159",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "GOJ",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:00:00.000",
+    "dateUtc": "2015-08-11T19:00:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-11T23:30:00.000",
+    "dateUtc": "2015-08-11T20:30:00.000Z"
+   },
+   "status": "A",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "Y",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:00:00.000",
+     "dateUtc": "2015-08-11T19:00:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:00:00.000",
+     "dateUtc": "2015-08-11T19:00:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T21:55:00.000",
+     "dateUtc": "2015-08-11T18:55:00.000Z"
+    },
+    "actualGateDeparture": {
+     "dateLocal": "2015-08-11T21:55:00.000",
+     "dateUtc": "2015-08-11T18:55:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-11T23:25:00.000",
+     "dateUtc": "2015-08-11T20:25:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 90
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "AT7"
+   }
+  },
+  {
+   "flightId": 583448461,
+   "carrierFsCode": "UN",
+   "flightNumber": "115",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "IKT",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:05:00.000",
+    "dateUtc": "2015-08-11T20:05:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T09:45:00.000",
+    "dateUtc": "2015-08-12T01:45:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:05:00.000",
+     "dateUtc": "2015-08-11T20:05:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T09:45:00.000",
+     "dateUtc": "2015-08-12T01:45:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:05:00.000",
+     "dateUtc": "2015-08-11T20:05:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:05:00.000",
+     "dateUtc": "2015-08-11T20:05:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T09:45:00.000",
+     "dateUtc": "2015-08-12T01:45:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T09:45:00.000",
+     "dateUtc": "2015-08-12T01:45:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 340
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738"
+   }
+  },
+  {
+   "flightId": 583448469,
+   "carrierFsCode": "UT",
+   "flightNumber": "393",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "KGD",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:30:00.000",
+    "dateUtc": "2015-08-11T20:30:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T00:30:00.000",
+    "dateUtc": "2015-08-11T22:30:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T00:30:00.000",
+     "dateUtc": "2015-08-11T22:30:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T00:30:00.000",
+     "dateUtc": "2015-08-11T22:30:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T00:30:00.000",
+     "dateUtc": "2015-08-11T22:30:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "TK",
+     "flightNumber": "9074",
+     "relationship": "L"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 120
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "735"
+   }
+  },
+  {
+   "flightId": 583448482,
+   "carrierFsCode": "UN",
+   "flightNumber": "145",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "KUF",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:30:00.000",
+    "dateUtc": "2015-08-11T19:30:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T01:05:00.000",
+    "dateUtc": "2015-08-11T21:05:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:30:00.000",
+     "dateUtc": "2015-08-11T19:30:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T01:05:00.000",
+     "dateUtc": "2015-08-11T21:05:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:30:00.000",
+     "dateUtc": "2015-08-11T19:30:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T22:30:00.000",
+     "dateUtc": "2015-08-11T19:30:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T01:05:00.000",
+     "dateUtc": "2015-08-11T21:05:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T01:05:00.000",
+     "dateUtc": "2015-08-11T21:05:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 95
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "73G"
+   }
+  },
+  {
+   "flightId": 583448499,
+   "carrierFsCode": "UT",
+   "flightNumber": "489",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "LED",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:30:00.000",
+    "dateUtc": "2015-08-11T20:30:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T00:45:00.000",
+    "dateUtc": "2015-08-11T21:45:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T00:45:00.000",
+     "dateUtc": "2015-08-11T21:45:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T00:45:00.000",
+     "dateUtc": "2015-08-11T21:45:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T00:45:00.000",
+     "dateUtc": "2015-08-11T21:45:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "TK",
+     "flightNumber": "9064",
+     "relationship": "L"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 75
+   },
+   "airportResources": {
+    "departureTerminal": "A",
+    "arrivalTerminal": "1"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "735"
+   }
+  },
+  {
+   "flightId": 583448518,
+   "carrierFsCode": "UT",
+   "flightNumber": "573",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "MRV",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:50:00.000",
+    "dateUtc": "2015-08-11T20:50:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T01:50:00.000",
+    "dateUtc": "2015-08-11T22:50:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:50:00.000",
+     "dateUtc": "2015-08-11T20:50:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T01:50:00.000",
+     "dateUtc": "2015-08-11T22:50:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:50:00.000",
+     "dateUtc": "2015-08-11T20:50:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:50:00.000",
+     "dateUtc": "2015-08-11T20:50:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T01:50:00.000",
+     "dateUtc": "2015-08-11T22:50:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T01:50:00.000",
+     "dateUtc": "2015-08-11T22:50:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "TK",
+     "flightNumber": "9060",
+     "relationship": "L"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 120
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738"
+   }
+  },
+  {
+   "flightId": 583448522,
+   "carrierFsCode": "UT",
+   "flightNumber": "341",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "NJC",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:40:00.000",
+    "dateUtc": "2015-08-11T20:40:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T05:10:00.000",
+    "dateUtc": "2015-08-12T00:10:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:40:00.000",
+     "dateUtc": "2015-08-11T20:40:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T05:10:00.000",
+     "dateUtc": "2015-08-12T00:10:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:40:00.000",
+     "dateUtc": "2015-08-11T20:40:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:40:00.000",
+     "dateUtc": "2015-08-11T20:40:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T05:10:00.000",
+     "dateUtc": "2015-08-12T00:10:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T05:10:00.000",
+     "dateUtc": "2015-08-12T00:10:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "TK",
+     "flightNumber": "9080",
+     "relationship": "L"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 210
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "735"
+   }
+  },
+  {
+   "flightId": 583448525,
+   "carrierFsCode": "UN",
+   "flightNumber": "101",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "NSK",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:25:00.000",
+    "dateUtc": "2015-08-11T19:25:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T06:30:00.000",
+    "dateUtc": "2015-08-11T23:30:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:25:00.000",
+     "dateUtc": "2015-08-11T19:25:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T06:30:00.000",
+     "dateUtc": "2015-08-11T23:30:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:25:00.000",
+     "dateUtc": "2015-08-11T19:25:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T22:25:00.000",
+     "dateUtc": "2015-08-11T19:25:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T06:30:00.000",
+     "dateUtc": "2015-08-11T23:30:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T06:30:00.000",
+     "dateUtc": "2015-08-11T23:30:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 245
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738"
+   }
+  },
+  {
+   "flightId": 583448537,
+   "carrierFsCode": "UN",
+   "flightNumber": "107",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "OVB",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:15:00.000",
+    "dateUtc": "2015-08-11T19:15:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T05:00:00.000",
+    "dateUtc": "2015-08-11T23:00:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:15:00.000",
+     "dateUtc": "2015-08-11T19:15:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T05:00:00.000",
+     "dateUtc": "2015-08-11T23:00:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:15:00.000",
+     "dateUtc": "2015-08-11T19:15:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T22:15:00.000",
+     "dateUtc": "2015-08-11T19:15:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T05:00:00.000",
+     "dateUtc": "2015-08-11T23:00:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T05:00:00.000",
+     "dateUtc": "2015-08-11T23:00:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 225
+   },
+   "airportResources": {
+    "departureTerminal": "A",
+    "arrivalTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "767"
+   }
+  },
+  {
+   "flightId": 583448547,
+   "carrierFsCode": "UN",
+   "flightNumber": "2337",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "RGK",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:50:00.000",
+    "dateUtc": "2015-08-11T20:50:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T07:20:00.000",
+    "dateUtc": "2015-08-12T01:20:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:50:00.000",
+     "dateUtc": "2015-08-11T20:50:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T07:20:00.000",
+     "dateUtc": "2015-08-12T01:20:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:50:00.000",
+     "dateUtc": "2015-08-11T20:50:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T07:20:00.000",
+     "dateUtc": "2015-08-12T01:20:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 270
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738"
+   }
+  },
+  {
+   "flightId": 583448551,
+   "carrierFsCode": "UT",
+   "flightNumber": "497",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "ROV",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:20:00.000",
+    "dateUtc": "2015-08-11T19:20:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T00:15:00.000",
+    "dateUtc": "2015-08-11T21:15:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:20:00.000",
+     "dateUtc": "2015-08-11T19:20:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T00:15:00.000",
+     "dateUtc": "2015-08-11T21:15:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:20:00.000",
+     "dateUtc": "2015-08-11T19:20:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T22:20:00.000",
+     "dateUtc": "2015-08-11T19:20:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T00:15:00.000",
+     "dateUtc": "2015-08-11T21:15:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T00:15:00.000",
+     "dateUtc": "2015-08-11T21:15:00.000Z"
+    }
+   },
+   "codeshares": [
+    {
+     "fsCode": "4G",
+     "flightNumber": "4497",
+     "relationship": "L"
+    }
+   ],
+   "flightDurations": {
+    "scheduledBlockMinutes": 115
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "735"
+   }
+  },
+  {
+   "flightId": 583448560,
+   "carrierFsCode": "DP*",
+   "flightNumber": "259",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "SGC",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:30:00.000",
+    "dateUtc": "2015-08-11T20:30:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T04:40:00.000",
+    "dateUtc": "2015-08-11T23:40:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T04:40:00.000",
+     "dateUtc": "2015-08-11T23:40:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:30:00.000",
+     "dateUtc": "2015-08-11T20:30:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T04:40:00.000",
+     "dateUtc": "2015-08-11T23:40:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 190
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738"
+   }
+  },
+  {
+   "flightId": 583448564,
+   "carrierFsCode": "R2",
+   "flightNumber": "5820",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "SIP",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:05:00.000",
+    "dateUtc": "2015-08-11T20:05:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T01:40:00.000",
+    "dateUtc": "2015-08-11T22:40:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:05:00.000",
+     "dateUtc": "2015-08-11T20:05:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T01:40:00.000",
+     "dateUtc": "2015-08-11T22:40:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:05:00.000",
+     "dateUtc": "2015-08-11T20:05:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:05:00.000",
+     "dateUtc": "2015-08-11T20:05:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T01:40:00.000",
+     "dateUtc": "2015-08-11T22:40:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T01:40:00.000",
+     "dateUtc": "2015-08-11T22:40:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 155
+   },
+   "airportResources": {
+    "departureTerminal": "A",
+    "arrivalTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "738"
+   }
+  },
+  {
+   "flightId": 583448576,
+   "carrierFsCode": "UN",
+   "flightNumber": "109",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "SVX",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:10:00.000",
+    "dateUtc": "2015-08-11T20:10:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T03:25:00.000",
+    "dateUtc": "2015-08-11T22:25:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:10:00.000",
+     "dateUtc": "2015-08-11T20:10:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T03:25:00.000",
+     "dateUtc": "2015-08-11T22:25:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:10:00.000",
+     "dateUtc": "2015-08-11T20:10:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:10:00.000",
+     "dateUtc": "2015-08-11T20:10:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T03:25:00.000",
+     "dateUtc": "2015-08-11T22:25:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T03:25:00.000",
+     "dateUtc": "2015-08-11T22:25:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 135
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "734"
+   }
+  },
+  {
+   "flightId": 583448580,
+   "carrierFsCode": "A9",
+   "flightNumber": "927",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "TBS",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:20:00.000",
+    "dateUtc": "2015-08-11T20:20:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T02:50:00.000",
+    "dateUtc": "2015-08-11T22:50:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "RJY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:20:00.000",
+     "dateUtc": "2015-08-11T20:20:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T02:50:00.000",
+     "dateUtc": "2015-08-11T22:50:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:20:00.000",
+     "dateUtc": "2015-08-11T20:20:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:00:00.000",
+     "dateUtc": "2015-08-11T20:00:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T02:50:00.000",
+     "dateUtc": "2015-08-11T22:50:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T02:30:00.000",
+     "dateUtc": "2015-08-11T22:30:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 150
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "737"
+   }
+  },
+  {
+   "flightId": 583448589,
+   "carrierFsCode": "UN",
+   "flightNumber": "203",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "TSE",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:10:00.000",
+    "dateUtc": "2015-08-11T20:10:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T05:25:00.000",
+    "dateUtc": "2015-08-11T23:25:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "RJY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:10:00.000",
+     "dateUtc": "2015-08-11T20:10:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T05:25:00.000",
+     "dateUtc": "2015-08-11T23:25:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:10:00.000",
+     "dateUtc": "2015-08-11T20:10:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-12T00:00:00.000",
+     "dateUtc": "2015-08-11T21:00:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T05:25:00.000",
+     "dateUtc": "2015-08-11T23:25:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T05:25:00.000",
+     "dateUtc": "2015-08-11T23:25:00.000Z"
+    }
+   },
+   "delays": {
+    "departureGateDelayMinutes": 50
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 195
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "73H"
+   }
+  },
+  {
+   "flightId": 583448602,
+   "carrierFsCode": "UN",
+   "flightNumber": "2345",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "UUD",
+   "departureDate": {
+    "dateLocal": "2015-08-11T23:35:00.000",
+    "dateUtc": "2015-08-11T20:35:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T10:35:00.000",
+    "dateUtc": "2015-08-12T02:35:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "JY",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T23:35:00.000",
+     "dateUtc": "2015-08-11T20:35:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T10:35:00.000",
+     "dateUtc": "2015-08-12T02:35:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T23:35:00.000",
+     "dateUtc": "2015-08-11T20:35:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T23:35:00.000",
+     "dateUtc": "2015-08-11T20:35:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T10:35:00.000",
+     "dateUtc": "2015-08-12T02:35:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T10:35:00.000",
+     "dateUtc": "2015-08-12T02:35:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 360
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "73H"
+   }
+  },
+  {
+   "flightId": 583448608,
+   "carrierFsCode": "UT",
+   "flightNumber": "151",
+   "departureAirportFsCode": "VKO",
+   "arrivalAirportFsCode": "VOZ",
+   "departureDate": {
+    "dateLocal": "2015-08-11T22:45:00.000",
+    "dateUtc": "2015-08-11T19:45:00.000Z"
+   },
+   "arrivalDate": {
+    "dateLocal": "2015-08-12T00:05:00.000",
+    "dateUtc": "2015-08-11T21:05:00.000Z"
+   },
+   "status": "S",
+   "schedule": {
+    "flightType": "J",
+    "serviceClasses": "Y",
+    "restrictions": ""
+   },
+   "operationalTimes": {
+    "publishedDeparture": {
+     "dateLocal": "2015-08-11T22:45:00.000",
+     "dateUtc": "2015-08-11T19:45:00.000Z"
+    },
+    "publishedArrival": {
+     "dateLocal": "2015-08-12T00:05:00.000",
+     "dateUtc": "2015-08-11T21:05:00.000Z"
+    },
+    "scheduledGateDeparture": {
+     "dateLocal": "2015-08-11T22:45:00.000",
+     "dateUtc": "2015-08-11T19:45:00.000Z"
+    },
+    "estimatedGateDeparture": {
+     "dateLocal": "2015-08-11T22:45:00.000",
+     "dateUtc": "2015-08-11T19:45:00.000Z"
+    },
+    "scheduledGateArrival": {
+     "dateLocal": "2015-08-12T00:05:00.000",
+     "dateUtc": "2015-08-11T21:05:00.000Z"
+    },
+    "estimatedGateArrival": {
+     "dateLocal": "2015-08-12T00:05:00.000",
+     "dateUtc": "2015-08-11T21:05:00.000Z"
+    }
+   },
+   "flightDurations": {
+    "scheduledBlockMinutes": 80
+   },
+   "airportResources": {
+    "departureTerminal": "A"
+   },
+   "flightEquipment": {
+    "scheduledEquipmentIataCode": "AT7"
+   }
+  }
+ ]
+}
