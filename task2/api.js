@@ -101,6 +101,6 @@
     if(userText) {
         for (i = 0; i < requests.length; i++) {
             var request = requests[i];
-            callbackWrapper(request,userText);
+            callbackWrapper(request,userText); /* Описание почему так в description.txt */
         }
     }
