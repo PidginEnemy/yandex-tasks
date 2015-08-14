@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Web Audio API Player</title>
+	<meta charset="utf-8">
+
+	<link href="style.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+	<div class="container">
+		<input id="file" class="file-upload" type="file" name="files[]" multiple/>
+		<div id="drop-zone" class="drop-zone">
+			Нажмите чтобы загрузить файл или перетащите файл сюда
+			<br/>
+			<img id="loader" class="loader" src="loader.gif"/>
+		</div>
+		<button id="play">Play</button>
+		<button id="stop">Stop</button>
+		<ul id="songs-list" class="songs-list">
+		</ul>
+		<canvas class="visualizer" width="640" height="100" style="background:#000;"></canvas> 
+	</div>
+	<script src="jquery.js"></script>
+	<script src="visualizer.js"></script> 
+	<script src="script.js"></script>
+</body>
+</html>
