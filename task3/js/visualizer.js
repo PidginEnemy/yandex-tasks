@@ -42,7 +42,7 @@
         for(var i = 0; i < bufferLength; i++) {
           barHeight = dataArray[i];
 
-          canvasCtx.fillStyle = 'rgb(' + (barHeight+100) + ',50,50)';
+          canvasCtx.fillStyle = 'rgb(' + (barHeight+100) + ',33,249)';
           canvasCtx.fillRect(x,HEIGHT-barHeight/2,barWidth,barHeight/2);
 
           x += barWidth + 1;
@@ -55,6 +55,10 @@
     this.init = function(source) {
       source.connect(analyser);
       visualize();
+    }
+
+    this.clear = function() {
+       window.cancelAnimationFrame(drawVisual);
     }
   }
 

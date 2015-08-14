@@ -61,9 +61,9 @@
                     <tr class="{{defineFlightRowClass @index}}" data-flight-type="{{flightType}}" tabindex="0">
                         <td class="flight-type">
                             <div class="icon-plane icon-plane-{{flightType}}" title="{{flightTypeNameHelper}}"></div>
-                            <div class="flight-info" tabindex="-1">
+                            <div class="flight-info">
                                 <div class="flight-info-inner">
-                                    <div class="flight-info-close">x</div>
+                                    <div class="flight-info-close" tabindex="-1">x</div>
                                     <div class="flight-info-header">
                                         <div class="icon-plane icon-plane-{{flightType}}" title="{{flightTypeNameHelper}}"></div>
                                         <b>Рейс № {{carrierFsCode}} {{flightNumber}} ({{flightTypeNameHelper}})</b>

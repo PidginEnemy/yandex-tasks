@@ -4,24 +4,37 @@
 	<title>Web Audio API Player</title>
 	<meta charset="utf-8">
 
-	<link href="style.css" type="text/css" rel="stylesheet"/>
+	<link href="css/style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
 	<div class="container">
-		<input id="file" class="file-upload" type="file" name="files[]" multiple/>
+		<input id="file" class="file-upload" type="file" name="files"/>
 		<div id="drop-zone" class="drop-zone">
 			Нажмите чтобы загрузить файл или перетащите файл сюда
 			<br/>
-			<img id="loader" class="loader" src="loader.gif"/>
+			<img id="loader" class="loader" src="images/loader.gif"/>
 		</div>
-		<button id="play">Play</button>
-		<button id="stop">Stop</button>
-		<ul id="songs-list" class="songs-list">
-		</ul>
-		<canvas class="visualizer" width="640" height="100" style="background:#000;"></canvas> 
+		<ol id="songs-list" class="songs-list">
+		</ol>
+		<canvas class="visualizer" width="640" height="100" style="background:#000;"></canvas>
+		<div class="controls clear">
+			<button class="play" id="play"></button>
+			<button class="pause" id="pause"></button>
+			<button class="stop" id="stop"></button>
+			<span class="song-info"></span>
+			<div class="equalizer">
+				<input type="radio" name="equalizeBtn" value="1" checked/>normal
+				<input type="radio" name="equalizeBtn" value="2"/>pop
+				<input type="radio" name="equalizeBtn" value="3"/>rock
+				<input type="radio" name="equalizeBtn" value="4"/>jazz
+				<input type="radio" name="equalizeBtn" value="5"/>classic
+			</div>
+		</div>
 	</div>
-	<script src="jquery.js"></script>
-	<script src="visualizer.js"></script> 
-	<script src="script.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/id3.min.js"></script>
+	<script src="js/equalizer.js"></script>
+	<script src="js/visualizer.js"></script> 
+	<script src="js/script.js"></script>
 </body>
 </html>
