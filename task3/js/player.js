@@ -134,6 +134,11 @@
 				_songs.push(item);
 				_addToSongsList(rand_id, item.name);
 				_hideLoader();
+
+				if(!_selectedSong) {
+					var firstSong = $('#songs-list > li:first');
+					firstSong.click();
+				}
 			}
 
 			for(var i = 0; i < files.length; i++) {
